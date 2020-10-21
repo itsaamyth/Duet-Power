@@ -306,6 +306,18 @@ nav > ul > li > a:after {
 nav > ul > li > a:hover:after {
 	width: 120%;
 }
+@media(max-width: 768px){
+    nav > ul > li > a:after {
+        display: none;
+    }
+    nav > ul > li > a:hover {
+        background-color: #8f94fb;
+        color: white;
+        
+    }
+    
+
+}
 
 .solar_toggle {
     display: none;
