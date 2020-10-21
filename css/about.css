@@ -1093,6 +1093,30 @@ h1.text_span {
     padding: 55px 0 70px;
     background-position: center;
 }
+
+nav > ul > li > a:hover{
+    color: #495569;
+}
+nav > ul > li > a:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    top: 15px;
+	right:0;
+    width: 0%;
+    height: 2px;
+    margin-left: -14px;
+    background-color: #8f94fb;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition:  all 0.3s ease-in-out;
+}
+nav > ul > li > a:hover:after {
+	width: 120%;
+}
 .solar_about_header .solar_banner {
     max-width: 100%;
 }

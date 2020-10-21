@@ -15,6 +15,7 @@
 	<link rel="shortcut icon" type="image/ico" href="images/solar-favv.png">
 	
 	<!-- stylesheet start -->
+	<link rel="stylesheet" type="text/css" href="css/about2.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -35,55 +36,66 @@
 	  </style> -->
 </head>
 <body>
-	<!-- Header Banner start -->
-	<div class="solar_about_header">				
-		<div class="solar_header">
-			<div class="solar_menu_header solar_menu_header_about">
-				<div class="row">
-					<div class="col-lg-3 col-md-4 col-sm-5">
-						<div class="solar_logo">
-							<a href="index.html"><img src="images/logo.png" alt="solar-installation-logo"></a>
-						</div>
-					</div>
-					<div class="col-lg-9 col-md-8 col-sm-7">
-						<div class="solar_menu_flex">
-							<div class="solar_menus solar_page_title">
-								<ul>
-								<span class="solar-close-icon"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="service.html">Services</a></li>
-									<li><a href="gallery.html">Gallery</a></li> 
-									 
-									<li><a href="contact.html">Contact Us</a></li>
-								</ul>
-								<div class="solar_toggle">
-									<div class="bar1 bar_page1"></div>
-									<div class="bar2 bar_page2"></div>
-									<div class="bar3 bar_page3"></div>
-								</div>
-							</div>
-							<div class="solar_mdl_btn">
-								<a href="#exampleModal" class="solar_btn" data-toggle="modal">Get A Quote</a>
-							</div>
-						</div>
-					</div>
-				</div>
+	<header class="header" >
+		<div class="main-bar" id="mainb">
+		  <div class="container d-flex justify-content-between align-items-center">
+			<div class="btn-nav-mobile">
+			  <span></span>
+			  <span></span>
+			  <span></span>
 			</div>
+				<div class="solar_logo">
+					<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
+				</div>
+		  
+		  <nav class="nav">
+		   <ul class="main-menu">
+			 <li >
+			   <a href="index.html" style="margin-left:-15px;font-weight: 600" >Home</a>
+			 </li>
+			 <li>
+			 <a href="about.html" style="margin-left:-15px;font-weight: 600">About Us</a>
+		 </li>
+		 <li>
+		  <a href="service.html"style="font-weight: 600;margin-left:-15px;">Services</a>
+		  <ul>
+			<li><a href="service.html#residential">Residential</a></li>
+			<li><a href="service.html#commercial">Commercial</a></li>
+			<li><a href="service.html#institutional">Institutional</a></li>
+			</ul>
+		</li>
+		 <li><a href="Products.html"style="font-weight: 600;margin-left:-15px;">Products</a>
+			<ul>
+				<li><a href="service.html#residential">Solar Power Plants</a></li>
+				<li><a href="service.html#residential">Electric Vehicles</a></li>
+				<li><a href="service.html#commercial">Solar Batteries</a></li>
+				<li><a href="service.html#institutional">Solar Products</a></li>
+				<li><a href="service.html#institutional">Maintenance Service</a></li>
+				</ul>
+	   <li>
+		 <a href="carrer.html" style="font-weight: 600;margin-left:-15px;" >Career</a>
+	   </li>
+			<li><a href="contact.html"style="font-weight: 600;margin-left:-15px;">Contact Us</a></li>
+			<li class="solar_mdl_btn"> 
+			<a href="#exampleModal" class="solar_btn" id="get" data-toggle="modal">Get A Quote</a>
+			</li>
 			
-			<div class="solar_banner">				
-				<div class="solar_title">
-					<h1>about us</h1>
-					<ul>
-						<li><a href="index.html">Home</a><span> / About</span></li>
-					</ul>
-				</div>													
-			</div>			
-				
+		   </ul>
+		 </nav>
+		  </div>
 		</div>
-	</div>	
-	<!-- Header Banner  end -->
-	
+	  </header> 
+
+	  <section class="intro-page" style="height: 500px;">
+		<img src="images/about.jpg" alt="">
+		<div class="page-title">
+		  <h3 id="title" style="color: white;text-transform: none;" >We Believe Everyone Deserves a Safe and Reliable Energy Source</h3>
+		  <p style="color: white;margin-top: 40px;font-size: 18px;" ><a style="color: white;" href="index.html">Home</a>/<a style="color: white;" href="about.html">About Us</a></p>
+		</div>
+	  </section>
+	  <!-- .end Intro page -->
+	<section>
+
 	<!-- Why Choose Section Start -->
 	<div class="solar_aboutus_page">
 		<div class="container">
@@ -415,6 +427,7 @@ They are committed to making the process as simple and painless as possible. </p
 	<!-- Put external javascript here -->
 	
 	<script src="js/custom.js"></script>
+	<script src="js/script.js"></script>
 	<!-- javascript end -->
 	
 </body>

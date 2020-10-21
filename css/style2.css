@@ -4525,7 +4525,7 @@ small {
   left: 0;
   position: absolute;
 } 
-.logo{
+/* .logo{
   float: left;
   left: 15px;
   width: 150px;
@@ -4533,7 +4533,7 @@ small {
  background: url(LogoAnureza.png) left/contain no-repeat;
   margin-top: -1%;
 
-}
+} */
 @media only screen and (min-width: 1024px) and (max-height: 1366px)
     and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
     /* ... ipad pro*/
@@ -4641,8 +4641,9 @@ small {
 
 .header .main-bar {
   background-color: #fff;
-  top: -150px;
+  /* top: -150px; */
   transition: all 0.4s;
+  margin-top: 30px;
 }
 
 .header .main-bar.pinned {
@@ -4655,9 +4656,9 @@ small {
   transition: all 0.4s;
 }
 
-.header .main-bar .row {
+/* .header .main-bar .row {
   min-height: 70px;
-}
+} */
 
 .header .main-bar .button {
   margin-left: 35px;
@@ -4986,7 +4987,7 @@ small {
 .nav .main-menu > li {
   position: relative;
   display: inline-block;
-  line-height: 70px;
+  line-height: 0px;
   margin-left: 30px;
   vertical-align: center;
 }
@@ -5035,7 +5036,7 @@ small {
   }
 }
 
-.nav .main-menu > li:after {
+/* .nav .main-menu > li:after {
   visibility: hidden;
   content: '';
   position: absolute;
@@ -5049,7 +5050,7 @@ small {
   background-color: #3BA2FF;
   transition: all 0.2s;
 
-} 
+}  */
 
 
 .green .nav .main-menu > li:after {
@@ -5076,12 +5077,12 @@ small {
   }
 }
 
-.nav .main-menu > li.active:after{
+/* .nav .main-menu > li.active:after{
   visibility: visible;
   width: 50px;
   transition: all 0.3s;
 
-}
+} */
 
 .nav .main-menu > li:hover ul {
   opacity: 1;
@@ -5157,30 +5158,34 @@ small {
   display: none;
   cursor: pointer;
 }
-
+#get{
+  margin-left: -20px;
+}
 @media (max-width: 992px) {
   .btn-nav-mobile {
     display: block;
+    margin-left:-10px;
+    margin-bottom:20px
+  }
+  #get{
+    display:none;
   }
 }
 
 .btn-nav-mobile span {
   display: block;
-  width: 20px;
+  width: 25px;
   float: right;
   height: 3px;
   margin-bottom: 5px;
   border-radius: 5px;
-  background-color: #8c8c8c;
+  background-color: #7b80eb;
 }
 
 .no-radius .btn-nav-mobile span {
   border-radius: 0;
 }
 
-.btn-nav-mobile span:nth-child(2) {
-  width: 25px;
-}
 
 .btn-nav-mobile span:last-child {
   margin-bottom: 0;
@@ -5260,7 +5265,7 @@ small {
 
 .intro-slider {
   position: relative;
-  margin-top: 120px;
+  margin-top: 110px;
 }
 
 @media (max-width: 992px) {
@@ -6092,7 +6097,7 @@ small {
   position: relative;
   margin-top: 120px;
   height: 450px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 @media (max-width: 768px) {

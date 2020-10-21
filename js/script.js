@@ -38,6 +38,52 @@ $(document).ready(function(){
     var filterValue = $(this).attr('data-filter');
     $grid.isotope({ filter: filterValue });
   });
+
+    // Detect device type
+    var isMobile;
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        isMobile = true;
+    } else {
+        isMobile = false;
+    }
+
+      if (isMobile) {
+
+        // Navigation - Dropdown menu on mobile
+        $('.main-menu > li > a').on('click', function(e) {
+          if ($(this).parent().children('ul').length) {
+            e.preventDefault();
+          }
+          $(this).parent().find('i').toggleClass('open');
+          $(this).parent().find('ul').toggle();
+        });
+    
+        // Navigation - show & close menu on mobile
+        $('.btn-nav-mobile').on('click', function() {
+          $(this).addClass('btn-nav-open');
+          $('.nav').addClass('nav-open');
+          $('.overlay').addClass('overlay-open');
+        });
+        $('.overlay').on('click', function() {
+          $(this).removeClass('overlay-open');
+          $('.nav').removeClass('nav-open');
+          $('.btn-nav-mobile').removeClass('btn-nav-open');
+        });
+    
+      }
+    
+      if (!isMobile) {
+        // Fixed header on scroll
+        $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+    
+          if (scroll >= 300) {
+            $(".main-bar").addClass("pinned");
+          } else {
+            $(".main-bar").removeClass("pinned");
+          }
+        });
+      }
         
             });
     
