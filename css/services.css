@@ -176,11 +176,19 @@ h5.solar_center.solar_left:before {
 @media(max-width: 800px){
     #worker{
         margin-top: 0;
-        margin-bottom: -60px;
+        margin-bottom: 30px;
     }
     #worker_text{
         margin-top: 0px;}
     }
+
+#cons{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+
+}
 h5.solar_center.solar_left:after {
     left: 0;
     width: 80px;
@@ -2307,9 +2315,9 @@ body {
 .solar_aboutus_page {
     padding: 60px 0 0;
 }
-.solar_section_accordian {
+/* .solar_section_accordian {
     padding: 57px 0 25px;
-}
+} */
 .solar_about_team01 {
     padding: 56px 0 150px;
 }
