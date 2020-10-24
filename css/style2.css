@@ -5084,14 +5084,36 @@ small {
 
 } */
 
-.nav .main-menu > li:hover ul {
+.nav .main-menu .sub-menu> li:hover ul {
   opacity: 1;
   visibility: visible;
   transform: translateY(5px);
   transition: all 0.2s;
 }
 
+.nav .main-menu > li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(5px);
+  transition: all 0.2s;
+}
 .nav .main-menu > li ul {
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+  transform: translateY(15px);
+  width: 200px;
+  left: -10px;
+  top: 100%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 20;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+
+.nav .main-menu .sub-menu> li ul{
   opacity: 0;
   visibility: hidden;
   overflow: hidden;

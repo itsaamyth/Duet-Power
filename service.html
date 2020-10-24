@@ -23,6 +23,9 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/services.css">
 	<!-- Put external stylesheet here -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
 		<!-- kit icon code -->
 		<script src="https://kit.fontawesome.com/58b8e1a00a.js" crossorigin="anonymous"></script>
@@ -92,7 +95,7 @@
 	  </header> 
 
 	  
-	  <section class="intro-page" style="height: 500px;">
+	  <section class="intro-page" style="height: 500px;margin-bottom: 30px;">
 		<img src="images/service.jpg" alt="">
 		<div class="page-title">
 		  <h3 id="title" style="color: white;text-transform: none;" >We help Households and Commercial, Industries save Money & Environment and also get more benefits</h3>
@@ -130,7 +133,7 @@
 
 	<div id="service" class="solar_section_accordian" >
 		<div class="container">
-			<div class="row">
+			<div class="row" id="ongrid">
 				<div class="col-lg-7 col-md-12 wow fadeInLeft" data-wow-delay="0.3s">
 					<div class="solar_about_roads">
 						<h5 class="solar_center solar_left ">Residential Services</h5>
@@ -157,7 +160,7 @@
 					</div>						
 				</div>				
 			</div>
-			<div class="row">
+			<div class="row" id="offgrid">
 				<div class="col-lg-7 col-md-12 wow fadeInLeft" data-wow-delay="0.3s">
 					<div class="solar_about_roads">
 						<h3 id="journey" style="margin-bottom: 20px;" class="about_journey">Off Grid Solar Plant</h3>
@@ -322,15 +325,16 @@
 	</div>
 	<!-- Modal -->
 	
-	<!-- javascript start -->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/swiper.min.js"></script>	
-	<script src="js/bootstrap.min.js"></script>	
-	<!-- Put external javascript here -->
+	<div class="overlay"></div>
 	
-	<script src="js/custom.js"></script>
+	<!-- javascript start -->
 	<script src="js/script.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	  <script src="js/slick.js"></script>
+	  <script src="js/wow.min.js"></script>
+	  <script src="js/swiper.min.js"></script>	
+	  <script src="js/bootstrap.min.js"></script>	
 	<!-- javascript end -->
 	
 </body>
