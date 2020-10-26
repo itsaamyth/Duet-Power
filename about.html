@@ -53,35 +53,90 @@
 		  
 		  <nav class="nav">
 		   <ul class="main-menu">
-			 <li >
+			 <li>
 			   <a href="index.html" style="margin-left:-15px;font-weight: 600" >Home</a>
 			 </li>
 			 <li>
 			 <a href="about.html" style="margin-left:-15px;font-weight: 600">About Us</a>
 		 </li>
 		 <li>
-		  <a href="service.html"style="font-weight: 600;margin-left:-15px;">Services</a>
-		  <ul>
-			<li><a href="service.html#residential">Residential</a>
-				<ul>
-					<li><a href="service.html#residential">On Grid Solar Power Plant</a></li>
-					<li><a href="service.html#commercial">Off Grid Solar Power Plant</a></li>
+		  <a href="residential.html"style="font-weight: 600;margin-left:-15px;">Services</a>
+		  <ul id="sub">
+			<li><a href="residential.html">Residential</a>
+				<ul >
+					<li><a href="residential.html#ongrid">On Grid Solar Power Plant</a></li>
+					<li><a href="residential.html#offgrid">Off Grid Solar Power Plant</a></li>
 				</ul>
 			</li>
-			<li><a href="commercial.html">Commercial</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			</ul>
-		</li>
-		 <li><a href="Products.html"style="font-weight: 600;margin-left:-15px;">Products</a>
-			<ul>
-				<li><a href="service.html#residential">Solar Power Plants</a></li>
-				<li><a href="service.html#residential">Electric Vehicles</a></li>
-				<li><a href="service.html#commercial">Solar Batteries</a></li>
-				<li><a href="service.html#institutional">Solar Products</a></li>
-				<li><a href="service.html#institutional">Maintenance Service</a></li>
+			<li><a href="commercial.html">Commercial</a>
+				<ul >
+					<li><a href="commercial.html#gridtied">Grid Tied Solar Power Plant</a></li>
+					<li><a href="commercial.html#hybrid">Hybrid Solar Power Plant</a></li>
 				</ul>
+			</li>
+			<li><a href="projects.html">Projects</a></li>
+		  </ul>
+		</li>
+		 <li>
+			 <a href="Products.html"style="font-weight: 600;margin-left:-15px;">Solar Products</a>
+			<ul>
+				<li><a href="Products.html#modules">Solar Modules</a>
+					<ul >
+						<li><a href="Products.html#mono">Monocrystalline</a></li>
+						<li><a href="Products.html#poly">Polycrystalline</a></li>
+						<li><a href="Products.html#bifacial">Bifacial</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#inverter">Solar Inverter</a>
+					<ul class="dropdown2">
+						<li><a href="Products.html#ongrid">On Grid Inverter</a></li>
+						<li><a href="Products.html#offgrid">Off Grid Inverter</a></li>
+						<li><a href="Products.html#hybrid">Hybrid Inverter</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#bos">BOS System</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#ajb">AJB, ACDB & DCDB</a></li>
+					<li><a href="Products.html#cable">Solar Cable</a></li>
+					<li><a href="Products.html#earth">Earthing</a></li>
+					<li><a href="Products.html#light">Lightning Arrestor</a></li>
+					<!-- <li><a href="Products.html#bos">E-Structure</a></li> -->
+					</ul>
+				</li>
+				<li><a href="Products.html#pump">Solar Pump</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#agri">Agricultural Pump</a></li>
+					<li><a href="Products.html#resi">Residential Water Pump</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#street">Solar Street Light</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#semi">Semi Integrated Light</a></li>
+					<li><a href="Products.html#all">All in One Street Light</a></li>
+					<li><a href="Products.html#stand">Stand Alone Light</a></li>
+					</ul>
+				</li>
+			</ul>
+		 </li>
 	   <li>
-		 <a href="carrer.html" style="font-weight: 600;margin-left:-15px;" >Career</a>
+		 <a href="Evehic.html" style="font-weight: 600;margin-left:-15px;" >Electric Vehicles</a>
+		 <ul>
+			<li><a href="Evehic.html#E-vehic">Electric Vehicles</a>
+				<ul class="dropdown2">
+					<li><a href="Evehic.html#E-vehic">Electric Cycles</a></li>
+					<li><a href="Evehic.html#E-vehic">Electric Car</a></li>
+					<li><a href="Evehic.html#E-vehic">Electric Bike</a></li>
+				</ul>	
+			</li>
+			<li><a href="Evehic.html#battery">Electric Vehicles Batteries</a>
+				<ul class="dropdown2">
+					<li><a href="Evehic.html#E-cycle">E-Cycle Battery</a></li>
+					<li><a href="Evehic.html#E-bike">E-Bike Battery</a></li>
+					<li><a href="Evehic.html#E-car">E-Car Battery</a></li>
+					<li><a href="Evehic.html#E-Rikshaw">E-Rikshaw Battery</a></li>
+				</ul>
+			</li>
+		</ul>
 	   </li>
 			<li><a href="contact.html"style="font-weight: 600;margin-left:-15px;">Contact Us</a></li>
 			<li class="solar_mdl_btn"> 
@@ -92,8 +147,7 @@
 		 </nav>
 		  </div>
 		</div>
-	  </header>  
-
+	  </header>
 	  <section class="intro-page" style="height: 500px;">
 		<img src="images/about.jpg" alt="">
 		<div class="page-title">
@@ -156,7 +210,6 @@ solar systems.</p>
 		<!-- Services Section Start -->
 		<div class="solar_Serivces_in wow fadeInUp" data-wow-delay="0.3s">
 			<h5 class="solar_center">Our Accomplishment</h5>
-			<!-- <h1 style="margin-bottom:40px;font-size: 30px;" class="text_span">Complete Solar Solutions</h1> -->
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-6">
@@ -356,9 +409,9 @@ They are committed to making the process as simple and painless as possible. </p
 								<ul>							
 									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="index.html">Home</a></li>
 									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="about.html">About Us</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="service.html">Serivces</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="contact.html">Contact</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="privacy.html">Privacy Policy</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="residential.html">Serivces</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="Products.html">Products</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="contact.html">Contact US</a></li>
 								</ul>
 							</div>
 						</div>

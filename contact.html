@@ -15,69 +15,138 @@
 	<link rel="shortcut icon" type="image/ico" href="assets\images\solar-favv.png">
 	
 	<!-- stylesheet start -->
-	<link rel="stylesheet" type="text/css" href="assets\css\animate.css">
-	<link rel="stylesheet" type="text/css" href="assets\css\swiper.min.css">
-	<link rel="stylesheet" type="text/css" href="assets\css\fonts.css">
-	<link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="assets\css\bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+	<link rel="stylesheet" type="text/css" href="css/about2.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Put external stylesheet here -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 	
-	
+			<!-- kit icon code -->
+			<script src="https://kit.fontawesome.com/58b8e1a00a.js" crossorigin="anonymous"></script>
 	<!-- stylesheet end -->
 </head>
 <body>
 	<!-- Header Banner start -->
-	<div class="solar_about_header">				
-		<div class="solar_header">
-			<div class="solar_menu_header solar_menu_header_about">
-				<div class="row">
-					<div class="col-lg-3 col-md-4 col-sm-5">
-						<div class="solar_logo">
-							<a href="index.html"><img src="assets\images\logo.png" alt="solar-installation-logo"></a>
-						</div>
-					</div>
-					<div class="col-lg-9 col-md-8 col-sm-7">
-						<div class="solar_menu_flex">
-							<div class="solar_menus solar_page_title">
-								<ul>
-								<span class="solar-close-icon"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="service.html">Services</a></li>
-									<li><a href="gallery.html">Gallery</a></li>
-									 
-									<li><a href="contact.html">Contact Us</a></li>
-								</ul>
-								<div class="solar_toggle">
-									<div class="bar1 bar_page1"></div>
-									<div class="bar2 bar_page2"></div>
-									<div class="bar3 bar_page3"></div>
-								</div>
-							</div>
-							<div class="solar_mdl_btn">
-								<a href="#exampleModal" class="solar_btn" data-toggle="modal">Get A Quote</a>
-							</div>
-						</div>
-					</div>
-				</div>
+	<header class="header" >
+		<div class="main-bar" id="mainb">
+		  <div class="container d-flex justify-content-between align-items-center">
+			<div class="btn-nav-mobile">
+			  <span></span>
+			  <span></span>
+			  <span></span>
 			</div>
-			
-			<div class="solar_banner">				
-				<div class="solar_title">
-					<h1>Contact Us</h1>
-					<ul>
-						<li><a href="index.html">Home</a><span> / Contact Us</span></li>
+				<div class="solar_logo">
+					<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
+				</div>
+		  
+		  <nav class="nav">
+		   <ul class="main-menu">
+			 <li>
+			   <a href="index.html" style="margin-left:-15px;font-weight: 600" >Home</a>
+			 </li>
+			 <li>
+			 <a href="about.html" style="margin-left:-15px;font-weight: 600">About Us</a>
+		 </li>
+		 <li>
+		  <a href="residential.html"style="font-weight: 600;margin-left:-15px;">Services</a>
+		  <ul id="sub">
+			<li><a href="residential.html">Residential</a>
+				<ul >
+					<li><a href="residential.html#ongrid">On Grid Solar Power Plant</a></li>
+					<li><a href="residential.html#offgrid">Off Grid Solar Power Plant</a></li>
+				</ul>
+			</li>
+			<li><a href="commercial.html">Commercial</a>
+				<ul >
+					<li><a href="commercial.html#gridtied">Grid Tied Solar Power Plant</a></li>
+					<li><a href="commercial.html#hybrid">Hybrid Solar Power Plant</a></li>
+				</ul>
+			</li>
+			<li><a href="projects.html">Projects</a></li>
+		  </ul>
+		</li>
+		 <li>
+			 <a href="Products.html"style="font-weight: 600;margin-left:-15px;">Solar Products</a>
+			<ul>
+				<li><a href="Products.html#modules">Solar Modules</a>
+					<ul >
+						<li><a href="Products.html#mono">Monocrystalline</a></li>
+						<li><a href="Products.html#poly">Polycrystalline</a></li>
+						<li><a href="Products.html#bifacial">Bifacial</a></li>
 					</ul>
-				</div>													
-			</div>			
-				
+				</li>
+				<li><a href="Products.html#inverter">Solar Inverter</a>
+					<ul class="dropdown2">
+						<li><a href="Products.html#ongrid">On Grid Inverter</a></li>
+						<li><a href="Products.html#offgrid">Off Grid Inverter</a></li>
+						<li><a href="Products.html#hybrid">Hybrid Inverter</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#bos">BOS System</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#ajb">AJB, ACDB & DCDB</a></li>
+					<li><a href="Products.html#cable">Solar Cable</a></li>
+					<li><a href="Products.html#earth">Earthing</a></li>
+					<li><a href="Products.html#light">Lightning Arrestor</a></li>
+					<!-- <li><a href="Products.html#bos">E-Structure</a></li> -->
+					</ul>
+				</li>
+				<li><a href="Products.html#pump">Solar Pump</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#agri">Agricultural Pump</a></li>
+					<li><a href="Products.html#resi">Residential Water Pump</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#street">Solar Street Light</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#semi">Semi Integrated Light</a></li>
+					<li><a href="Products.html#all">All in One Street Light</a></li>
+					<li><a href="Products.html#stand">Stand Alone Light</a></li>
+					</ul>
+				</li>
+			</ul>
+		 </li>
+	   <li>
+		 <a href="Evehic.html" style="font-weight: 600;margin-left:-15px;" >Electric Vehicles</a>
+		 <ul>
+			<li><a href="Evehic.html#E-vehic">Electric Vehicles</a>
+				<ul class="dropdown2">
+					<li><a href="Evehic.html#E-vehic">Electric Cycles</a></li>
+					<li><a href="Evehic.html#E-vehic">Electric Car</a></li>
+					<li><a href="Evehic.html#E-vehic">Electric Bike</a></li>
+				</ul>	
+			</li>
+			<li><a href="Evehic.html#battery">Electric Vehicles Batteries</a>
+				<ul class="dropdown2">
+					<li><a href="Evehic.html#E-cycle">E-Cycle Battery</a></li>
+					<li><a href="Evehic.html#E-bike">E-Bike Battery</a></li>
+					<li><a href="Evehic.html#E-car">E-Car Battery</a></li>
+					<li><a href="Evehic.html#E-Rikshaw">E-Rikshaw Battery</a></li>
+				</ul>
+			</li>
+		</ul>
+	   </li>
+			<li><a href="contact.html"style="font-weight: 600;margin-left:-15px;">Contact Us</a></li>
+			<li class="solar_mdl_btn"> 
+			<a href="#exampleModal" class="solar_btn" id="get" data-toggle="modal">Get A Quote</a>
+			</li>
+			
+		   </ul>
+		 </nav>
+		  </div>
 		</div>
-	</div>	
+	  </header>
 	<!-- Header Banner  end -->
 	
 	<!-- Portfolio Section Start -->
-	<div class="solar_contact wow fadeInUp" data-wow-delay="0.3s">
+	<div class="solar_contact wow fadeInUp" data-wow-delay="0.3s" style="margin-top: 40px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -143,9 +212,9 @@
 								<ul>							
 									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="index.html">Home</a></li>
 									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="about.html">About Us</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="service.html">Serivces</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="contact.html">Contact</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="privacy.html">Privacy Policy</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="residential.html">Serivces</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="Products.html">Products</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="contact.html">Contact US</a></li>
 								</ul>
 							</div>
 						</div>
@@ -167,7 +236,7 @@
 				</div>
 			</div>
 			<div class="solar_copyright">
-				<p>Copyright © 2020 Duet Power. All Rights Reserved | Designed By <a href='markswellinfotech.com'>Markswell</a></p>
+				<p>Copyright © 2020 Duet Power. All Rights Reserved | Designed By <a href='markswellinfotech.com'>Duet Power & Team</a></p>
 			</div>
 		</div>
 	</div>
@@ -213,15 +282,16 @@
 		</div>
 	</div>
 	<!-- Modal -->
+	<div class="overlay"></div>
 	
 	<!-- javascript start -->
-	<script src="assets\js\jquery.min.js"></script>
-	<script src="assets\js\wow.min.js"></script>
-	<script src="assets\js\swiper.min.js"></script>	
-	<script src="assets\js\bootstrap.min.js"></script>	
-	<!-- Put external javascript here -->
-	
-	<script src="assets\js\custom.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	  <script src="js/slick.js"></script>
+	  <script src="js/wow.min.js"></script>
+	  <script src="js/swiper.min.js"></script>	
+	  <script src="js/bootstrap.min.js"></script>
 	<!-- javascript end -->
 	
 </body>

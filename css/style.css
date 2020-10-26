@@ -306,7 +306,7 @@ nav > ul > li > a:after {
 nav > ul > li > a:hover:after {
 	width: 120%;
 }
-@media(max-width: 768px){
+@media(max-width: 992px){
     nav > ul > li > a:after {
         display: none;
     }
@@ -2166,9 +2166,9 @@ body {
 .solar_contact {
     padding: 0 0 140px;
 }
-.contact_form {
+/* .contact_form {
     margin-top: 50px;
-}
+} */
 .contact_map:after {
     display: none;
 }

@@ -8415,6 +8415,7 @@ blockquote p {
 .section-title.center {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .section-title.center h2 {

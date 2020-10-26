@@ -33,279 +33,125 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
 	<!-- Put external stylesheet here -->
+	<script> 
+		$(function(){
+		  $("#header").load("header.html"); 
+		});
+	</script> 
 	
 	
 	<!-- stylesheet end -->
 </head>
 <body>
-
-	<!-- Header Banner start -->
-	<!-- <header>
-	<div class="solar_top_header">				
-		<div class="solar_header">
-			<div class="solar_menu_header">
-				<div class="row">
-					<div class="col-lg-3 col-md-4 col-sm-5">
-						<div class="solar_logo">
-							<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
-						</div>
-					</div>
-					<div class="col-lg-9 col-md-8 col-sm-7">
-						<div class="solar_menu_flex">
-							<div class="solar_menus" id="mainb">
-								<ul class="main-menu">
-									<span class="solar-close-icon"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="service.html">Services</a>
-										<ul>
-											<li><a href="#solar-plant">Solar Power Plants</a></li>
-											<li><a href="#solar-products">Solar Products</a></li>
-											<li><a href="#testing">Testing Services</a></li>
-											<li><a href="#lt">LT Panel</a></li>
-											<li><a href="#earthing">Earthing Services</a></li>
-											<li><a href="#oil">Transformer Service</a></li>
-											<li><a href="#annual">Annual Maintenance</a></li>
-											<li><a href="#services">Services</a></li>
-											</ul>
-									</li>
-									<li><a href="gallery.html">Gallery</a></li>
-									 
-									<li><a href="contact.html">Contact Us</a></li>
-								</ul>
-								<div class="solar_toggle">
-									<div class="bar1"></div>
-									<div class="bar2"></div>
-									<div class="bar3"></div>
-								</div>
-							</div>
-							<div class="solar_mdl_btn">
-								<a href="#exampleModal" class="solar_btn" data-toggle="modal">Get A Quote</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				</nav>
-			</div>	
-		</div>	
-	</div>
-</header> -->
-<header class="header" >
-	<div class="main-bar" id="mainb">
-	  <div class="container d-flex justify-content-between align-items-center">
-		<div class="btn-nav-mobile">
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		</div>
-			<div class="solar_logo">
-				<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
+	<header class="header" >
+		<div class="main-bar" id="mainb">
+		  <div class="container d-flex justify-content-between align-items-center">
+			<div class="btn-nav-mobile">
+			  <span></span>
+			  <span></span>
+			  <span></span>
 			</div>
-	  
-	  <nav class="nav">
-	   <ul class="main-menu">
-		 <li>
-		   <a href="index.html" style="margin-left:-15px;font-weight: 600" >Home</a>
+				<div class="solar_logo">
+					<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
+				</div>
+		  
+		  <nav class="nav">
+		   <ul class="main-menu">
+			 <li>
+			   <a href="index.html" style="margin-left:-15px;font-weight: 600" >Home</a>
+			 </li>
+			 <li>
+			 <a href="about.html" style="margin-left:-15px;font-weight: 600">About Us</a>
 		 </li>
 		 <li>
-		 <a href="about.html" style="margin-left:-15px;font-weight: 600">About Us</a>
-	 </li>
-	 <li>
-	  <a href="service.html"style="font-weight: 600;margin-left:-15px;">Services</a>
-	  <ul id="sub">
-		<li><a href="service.html">Residential</a>
-			<ul >
-				<li><a href="service.html#ongrid">On Grid Solar Power Plant</a></li>
-				<li><a href="service.html#offgrid">Off Grid Solar Power Plant</a></li>
-			</ul>
-		</li>
-		<li><a href="commercial.html">Commercial</a>
-			<ul >
-				<li><a href="service.html#ongrid">On Grid Solar Power Plant</a></li>
-				<li><a href="service.html#offgrid">Off Grid Solar Power Plant</a></li>
-			</ul>
-		</li>
-		<li><a href="projects.html">Projects</a></li>
-	  </ul>
-	</li>
-	 <li>
-		 <a href="Products.html"style="font-weight: 600;margin-left:-15px;">Solar Products</a>
-		<ul>
-			<li><a href="service.html#residential">Solar Modules</a>
+		  <a href="residential.html"style="font-weight: 600;margin-left:-15px;">Services</a>
+		  <ul id="sub">
+			<li><a href="residential.html">Residential</a>
 				<ul >
-					<li><a href="service.html#ongrid">Monocrystalline</a></li>
-					<li><a href="service.html#offgrid">Polycrystalline</a></li>
-					<li><a href="service.html#offgrid">Bifacial</a></li>
+					<li><a href="residential.html#ongrid">On Grid Solar Power Plant</a></li>
+					<li><a href="residential.html#offgrid">Off Grid Solar Power Plant</a></li>
 				</ul>
 			</li>
-			<li><a href="service.html#residential">Solar Inverter</a>
-				<ul class="dropdown2">
-					<li><a href="service.html#ongrid">On Grid Inverter</a></li>
-					<li><a href="service.html#offgrid">Off Grid Inverter</a></li>
-					<li><a href="service.html#offgrid">Hybrid Inverter</a></li>
+			<li><a href="commercial.html">Commercial</a>
+				<ul >
+					<li><a href="commercial.html#gridtied">Grid Tied Solar Power Plant</a></li>
+					<li><a href="commercial.html#hybrid">Hybrid Solar Power Plant</a></li>
 				</ul>
 			</li>
-			<li><a href="service.html">Bos System</a>
+			<li><a href="projects.html">Projects</a></li>
+		  </ul>
+		</li>
+		 <li>
+			 <a href="Products.html"style="font-weight: 600;margin-left:-15px;">Solar Products</a>
+			<ul>
+				<li><a href="Products.html#modules">Solar Modules</a>
+					<ul >
+						<li><a href="Products.html#mono">Monocrystalline</a></li>
+						<li><a href="Products.html#poly">Polycrystalline</a></li>
+						<li><a href="Products.html#bifacial">Bifacial</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#inverter">Solar Inverter</a>
+					<ul class="dropdown2">
+						<li><a href="Products.html#ongrid">On Grid Inverter</a></li>
+						<li><a href="Products.html#offgrid">Off Grid Inverter</a></li>
+						<li><a href="Products.html#hybrid">Hybrid Inverter</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#bos">BOS System</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#ajb">AJB, ACDB & DCDB</a></li>
+					<li><a href="Products.html#cable">Solar Cable</a></li>
+					<li><a href="Products.html#earth">Earthing</a></li>
+					<li><a href="Products.html#light">Lightning Arrestor</a></li>
+					<!-- <li><a href="Products.html#bos">E-Structure</a></li> -->
+					</ul>
+				</li>
+				<li><a href="Products.html#pump">Solar Pump</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#agri">Agricultural Pump</a></li>
+					<li><a href="Products.html#resi">Residential Water Pump</a></li>
+					</ul>
+				</li>
+				<li><a href="Products.html#street">Solar Street Light</a>
+					<ul class="dropdown2">
+					<li><a href="Products.html#semi">Semi Integrated Light</a></li>
+					<li><a href="Products.html#all">All in One Street Light</a></li>
+					<li><a href="Products.html#stand">Stand Alone Light</a></li>
+					</ul>
+				</li>
+			</ul>
+		 </li>
+	   <li>
+		 <a href="Evehic.html" style="font-weight: 600;margin-left:-15px;" >Electric Vehicles</a>
+		 <ul>
+			<li><a href="Evehic.html#E-vehic">Electric Vehicles</a>
 				<ul class="dropdown2">
-				<li><a href="service.html#ongrid">AJB, ACDB & DCDB</a></li>
-				<li><a href="service.html#offgrid">Solar Cable</a></li>
-				<li><a href="service.html#offgrid">Earthing</a></li>
-				<li><a href="service.html#offgrid">Lightning Arrestor</a></li>
-				<li><a href="service.html#offgrid">E-Structure</a></li>
-				</ul>
+					<li><a href="Evehic.html#E-vehic">Electric Cycles</a></li>
+					<li><a href="Evehic.html#E-vehic">Electric Car</a></li>
+					<li><a href="Evehic.html#E-vehic">Electric Bike</a></li>
+				</ul>	
 			</li>
-			<li><a href="service.html">Solar Pump</a>
+			<li><a href="Evehic.html#battery">Electric Vehicles Batteries</a>
 				<ul class="dropdown2">
-				<li><a href="service.html#ongrid">Agricultural Pump</a></li>
-				<li><a href="service.html#offgrid">Residential Water Pump</a></li>
-				</ul>
-			</li>
-			<li><a href="service.html">Solar Street Light</a>
-				<ul class="dropdown2">
-				<li><a href="service.html#ongrid">Semi Integrated Light</a></li>
-				<li><a href="service.html#offgrid">All in One Street Light</a></li>
-				<li><a href="service.html#offgrid">Stand Alone Light</a></li>
+					<li><a href="Evehic.html#E-cycle">E-Cycle Battery</a></li>
+					<li><a href="Evehic.html#E-bike">E-Bike Battery</a></li>
+					<li><a href="Evehic.html#E-car">E-Car Battery</a></li>
+					<li><a href="Evehic.html#E-Rikshaw">E-Rikshaw Battery</a></li>
 				</ul>
 			</li>
 		</ul>
-	 </li>
-   <li>
-	 <a href="carrer.html" style="font-weight: 600;margin-left:-15px;" >Electric Vehicles</a>
-	 <ul>
-		<li><a href="service.html#residential">Electric Vehicles</a>
-			<ul class="dropdown2">
-				<li><a href="service.html#ongrid">Electric Cycles</a></li>
-				<li><a href="service.html#offgrid">Electric Car</a></li>
-				<li><a href="service.html#offgrid">Electric Bike</a></li>
-			</ul>	
-		</li>
-		<li><a href="service.html#residential">Electric Vehicles Batteries</a>
-			<ul class="dropdown2">
-				<li><a href="service.html#ongrid">E-Cycle Battery</a></li>
-				<li><a href="service.html#offgrid">E-Bike Battery</a></li>
-				<li><a href="service.html#offgrid">E-Car Battery</a></li>
-				<li><a href="service.html#offgrid">E-Rikshaw Battery</a></li>
-			</ul>
-		</li>
-	</ul>
-   </li>
-		<li><a href="contact.html"style="font-weight: 600;margin-left:-15px;">Contact Us</a></li>
-		<li class="solar_mdl_btn"> 
-		<a href="#exampleModal" class="solar_btn" id="get" data-toggle="modal">Get A Quote</a>
-		</li>
-		
-	   </ul>
-	 </nav>
-	  </div>
-	</div>
-    <!-- <div class="main-bar" id="mainb">
-	<div class="container d-flex justify-content-between align-items-center">
-	<div id='main-menu' class='main-menu'>
-		<div class='container-menu'>
-			<div class="btn-nav-mobile">
-				<span></span>
-				<span></span>
-				<span></span>
-			  </div>
-			<div class="solar_logo">
-				<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
-			</div>
-		  <nav class='navigation'>
-			<span class='hamburger-menu'>
-			  <span class='burger-1'></span>
-			  <span class='burger-2'></span>
-			  <span class='burger-3'></span>
-			</span>
-			<ul class='core-menu'>
-				<li><a href='index.html'>Home</a></li>
-				<li><a href='about.html'>About</a></li>
-			  <li><a href='#'>Services<span class='toggle'></span></a>
-				<ul class='dropdown'>
-				  <li><a href='#'>Residential<span class='toggle2'></span></a></a>
-					<ul class='dropdown2'>
-						<li><a href="service.html#ongrid">On Grid Solar Power Plant</a></li>
-						<li><a href="service.html#offgrid">Off Grid Solar Power Plant</a></li>
-					</ul>
-				  </li>
-				  <li><a href="service.html">Commercial</a>
-					<ul class="dropdown2">
-					<li><a href="service.html#ongrid">On Grid Solar Power Plant</a></li>
-					<li><a href="service.html#offgrid">Off Grid Solar Power Plant</a></li>
-					</ul>
-				</li>
-				<li><a href="projects.html">Projects</a></li>
-				</ul>
-			  </li>
-			  <li><a href='#'>Solar Products<span class='toggle'></a>
-			   <ul class='dropdown'>
-				<li><a href="service.html">Solar Modules</a>
-					<ul class="dropdown2">
-					<li><a href="service.html#ongrid">Mono Polycrystalline</a></li>
-					<li><a href="service.html#offgrid">Polycrystalline</a></li>
-					<li><a href="service.html#offgrid">Bifacial</a></li>
-					</ul>
-					</li>
-					<li><a href="service.html">Solar Inverter</a>
-						<ul class="dropdown2">
-						<li><a href="service.html#ongrid">On Grid Inverter</a></li>
-						<li><a href="service.html#offgrid">Off Grid Inverter</a></li>
-						<li><a href="service.html#offgrid">Hybrid Inverter</a></li>
-						</ul>
-					</li>
-					<li><a href="service.html">Bos System</a>
-						<ul class="dropdown2">
-						<li><a href="service.html#ongrid">AJB, ACDB & DCDB</a></li>
-						<li><a href="service.html#offgrid">Solar Cable</a></li>
-						<li><a href="service.html#offgrid">Earthing</a></li>
-						<li><a href="service.html#offgrid">Lightning Arrestor</a></li>
-						<li><a href="service.html#offgrid">E-Structure</a></li>
-						</ul>
-					</li>
-					<li><a href="service.html">Solar Pump</a>
-						<ul class="dropdown2">
-						<li><a href="service.html#ongrid">Agricultural Pump</a></li>
-						<li><a href="service.html#offgrid">Residential Water Pump</a></li>
-						</ul>
-					</li>
-					<li><a href="service.html">Solar Street Light</a>
-						<ul class="dropdown2">
-						<li><a href="service.html#ongrid">Semi Integrated Light</a></li>
-						<li><a href="service.html#offgrid">All in One Street Light</a></li>
-						<li><a href="service.html#offgrid">Stand Alone Light</a></li>
-						</ul>
-					</li>
-				</ul>
-			  </li>
-			  <li><a href='#'>Electric Vehicles</a>
-				<ul class="dropdown">
-					<li><a href="service.html">Electric Vehicles</a>
-					<ul class="dropdown2">
-					<li><a href="service.html#ongrid">Electric Cycles</a></li>
-					<li><a href="service.html#offgrid">Electric Car</a></li>
-					<li><a href="service.html#offgrid">Electric Bike</a></li>
-					</ul>
-					</li>
-					<li><a href="service.html">Electric Vehicle Batteries</a>
-						<ul class="dropdown2">
-						<li><a href="service.html#ongrid">E-Cycle Battery</a></li>
-						<li><a href="service.html#offgrid">E-Bike Battery</a></li>
-						<li><a href="service.html#offgrid">E-Car Battery</a></li>
-						<li><a href="service.html#offgrid">E-Rikshaw Battery</a></li>
-						</ul>
-					</li>
-				</ul>
-			  </li>
-			  <li><a href="contact.html">Contact Us</a></li>
-			  <li class="solar_mdl_btn"> 
-				<a href="#exampleModal" class="solar_btn" style="margin-left: -12px;margin-right: 5px;" data-toggle="modal">Get A Quote</a>
-				</li>
-			</ul>
-			</div>
-		  </nav>
+	   </li>
+			<li><a href="contact.html"style="font-weight: 600;margin-left:-15px;">Contact Us</a></li>
+			<li class="solar_mdl_btn"> 
+			<a href="#exampleModal" class="solar_btn" id="get" data-toggle="modal">Get A Quote</a>
+			</li>
+			
+		   </ul>
+		 </nav>
+		  </div>
 		</div>
-	  </div>
-	  </div> -->
-  </header> 
+	  </header>
   
 	<!-- Header Banner  end -->
 	                 <!-- Intro slider -->
@@ -548,7 +394,7 @@
 						<img src="images/solar-icon6.png" alt="">
 						<h3>Residential Services</h3>
 						<p>Best Quality Solar Panels Specially Designed for Residential Purpose</p><br>
-						<p><a href="about.html"class="solar_btn">Know More</a></p>
+						<p><a href="residential.html"class="solar_btn">Know More</a></p>
 					</div>						
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -556,7 +402,7 @@
 						<img src="images/solar-icon7.png" alt="">
 						<h3>Commercial Services</h3>
 						<p>Highest Quality Solar Systems Specially Best for Commercial Purpose</p><br>
-						<p><a href="about.html"class="solar_btn">Know More</a></p>
+						<p><a href="commercial.html"class="solar_btn">Know More</a></p>
 					</div>						
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -564,7 +410,7 @@
 						<img src="images/solar-icon8.png" alt="">
 						<h3>Solar Street Lights</h3>
 						<p>We have specially designed Street lights for Remote & Urban Areas</p><br>
-						<p><a href="about.html"class="solar_btn">Know More</a></p>
+						<p><a href="Products.html"class="solar_btn">Know More</a></p>
 					</div>						
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -573,7 +419,7 @@
 						<h3>Solar Water Pumps
 						</h3>
 						<p>With Specialized Technology we deliver high end products for proper solar electrification</p><br>
-						<p><a href="about.html"class="solar_btn">Know More</a></p>
+						<p><a href="Products.html"class="solar_btn">Know More</a></p>
 					</div>						
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -581,7 +427,7 @@
 						<img style="height: 100px;width: 100px;" src="images/bicycle.png" alt="">
 						<h3>Electric Vehicles</h3>
 						<p>We also manufacture high end Electric Vehicles specially designed to Save Energy</p><br>
-						<p><a href="about.html"class="solar_btn">Know More</a></p>
+						<p><a href="Evehic.html"class="solar_btn">Know More</a></p>
 					</div>						
 				</div>
 				<div class="col-lg-4 col-md-6">
@@ -589,7 +435,7 @@
 						<img style="height: 100px;width: 100px;" src="images/electricity.png" alt="">
 						<h3>Maintenance Support</h3>
 						<p>Our Services also include 24/7 Maintenance Service and Customer Support</p><br>
-						<p><a href="about.html"class="solar_btn">Know More</a></p>
+						<p><a href="contact.html"class="solar_btn">Know More</a></p>
 					</div>						
 				</div>
 			</div>
@@ -719,9 +565,9 @@
 								<ul>							
 									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="index.html">Home</a></li>
 									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="about.html">About Us</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="service.html">Serivces</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="contact.html">Contact</a></li>
-									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="privacy.html">Privacy Policy</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="residential.html">Serivces</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="Products.html">Products</a></li>
+									<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> <a href="contact.html">Contact US</a></li>
 								</ul>
 							</div>
 						</div>
