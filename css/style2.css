@@ -5084,14 +5084,14 @@ small {
 
 } */
 
-.nav .main-menu .sub-menu> li:hover ul {
+
+.nav .main-menu > li:hover ul {
   opacity: 1;
   visibility: visible;
   transform: translateY(5px);
   transition: all 0.2s;
 }
-
-.nav .main-menu > li:hover ul {
+.nav .main-menu #sub > li:hover ul {
   opacity: 1;
   visibility: visible;
   transform: translateY(5px);
@@ -5112,22 +5112,22 @@ small {
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.2s;
 }
-
-.nav .main-menu .sub-menu> li ul{
+#sub > li ul {
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   overflow: hidden;
   transform: translateY(15px);
-  width: 200px;
-  left: -10px;
+  width: 500px;
+  right: -100px;
   top: 100%;
-  background-color: #fff;
+  background-color: black;
   position: absolute;
   z-index: 20;
   border-radius: 5px;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.2s;
 }
+
 
 .no-radius .nav .main-menu > li ul {
   border-radius: 0;
@@ -5152,7 +5152,12 @@ small {
   line-height: 19px;
   border-bottom: 1px solid #EFEFEF;
 }
-
+#sub > li ul li {
+  display: block;
+  margin-left: 0;
+  line-height: 19px;
+  border-bottom: 1px solid #EFEFEF;
+}
 @media (max-width: 992px) {
   .nav .main-menu > li ul li {
     font-size: 12px;
@@ -5168,8 +5173,18 @@ small {
   color: #8c8c8c;
   transition: all 0.2s;
 }
-
+ #sub > li ul li a {
+  display: block;
+  padding: 13px 15px;
+  color: #8c8c8c;
+  transition: all 0.2s;
+}
 .nav .main-menu > li ul li a:hover {
+  color: #333333;
+  transition: all 0.2s;
+  transform: translateX(5px);
+}
+ #sub > li ul li a:hover {
   color: #333333;
   transition: all 0.2s;
   transform: translateX(5px);
