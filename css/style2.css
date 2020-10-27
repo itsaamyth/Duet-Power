@@ -5195,9 +5195,7 @@ small {
   display: none;
   cursor: pointer;
 }
-#get{
-  margin-left: -20px;
-}
+
 @media (max-width: 992px) {
   .btn-nav-mobile {
     display: block;
@@ -5302,7 +5300,7 @@ small {
 
 .intro-slider {
   position: relative;
-  margin-top: 110px;
+  margin-top: 30px;
 }
 
 @media (max-width: 992px) {

@@ -34,124 +34,118 @@
 		<!-- kit icon code -->
 		<script src="https://kit.fontawesome.com/58b8e1a00a.js" crossorigin="anonymous"></script>
 	
+<!-- navigation bar -->
+
+<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script> -->
+
+<script src="js/nav.js"></script>
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+<!-- navigation bar -->
 	
-	<!-- stylesheet end -->
-	<!-- <style>
-	*{
-	 outline: 1px solid red;
-	}
-	  </style> -->
 </head>
 <body>
-	<header class="header" >
-		<div class="main-bar" id="mainb">
-		  <div class="container d-flex justify-content-between align-items-center">
-			<div class="btn-nav-mobile">
-			  <span></span>
-			  <span></span>
-			  <span></span>
+	<header>
+		<nav class="navbar navbar-expand-lg ">
+			<div class="solar_logo">
+				<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
 			</div>
-				<div class="solar_logo">
-					<a href="index.html"><img src="images/logo2.png" alt="solar-installation-logo"></a>
-				</div>
-		  
-		  <nav class="nav">
-		   <ul class="main-menu">
-			 <li>
-			   <a href="index.html" style="margin-left:-15px;font-weight: 600" >Home</a>
-			 </li>
-			 <li>
-			 <a href="about.html" style="margin-left:-15px;font-weight: 600">About Us</a>
-		 </li>
-		 <li>
-		  <a href="residential.html"style="font-weight: 600;margin-left:-15px;">Services</a>
-		  <ul id="sub">
-			<li><a href="residential.html">Residential</a>
-				<ul >
-					<li><a href="residential.html#ongrid">On Grid Solar Power Plant</a></li>
-					<li><a href="residential.html#offgrid">Off Grid Solar Power Plant</a></li>
-				</ul>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="main_nav">
+		
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
+			<li class="nav-item"><a class="nav-link" href="about.html"> About </a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="residential.html" data-toggle="dropdown">Services</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="residential.html">Residential &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="residential.html#ongrid">On Grid Solar Power Plant</a></li>
+						<li><a class="dropdown-item" href="residential.html#offgrid">Off Grid Solar Power Plant</a></li>
+					 </ul>
+				 </li>
+				 <li><a class="dropdown-item" href="commercial.html">Commercial &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="commercial.html#gridtied">Grid Tied Solar Power Plant</a></li>
+						<li><a class="dropdown-item" href="commercial.html#hybrid">Hybrid Solar Power Plant</a></li>
+					 </ul>
+				  </li>
+				   <li><a class="dropdown-item" href="projects.html">Projects</a></li>
+		        </ul>
 			</li>
-			<li><a href="commercial.html">Commercial</a>
-				<ul >
-					<li><a href="commercial.html#gridtied">Grid Tied Solar Power Plant</a></li>
-					<li><a href="commercial.html#hybrid">Hybrid Solar Power Plant</a></li>
-				</ul>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="Products.html" data-toggle="dropdown">Solar Products</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="Products.html#modules">Solar Modules &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="Products.html#mono">Monocrystalline</a></li>
+						<li><a class="dropdown-item" href="Products.html#poly">Polycrystalline</a></li>
+						<li><a class="dropdown-item" href="Products.html#bifacial">Bifacial</a></li>
+					 </ul>
+				 </li>
+				 <li><a class="dropdown-item" href="Products.html#inverter">Solar Inverter &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="Products.html#ongrid">On Grid Inverter</a></li>
+						<li><a class="dropdown-item" href="Products.html#offgrid">Off Grid Inverter</a></li>
+						<li><a class="dropdown-item" href="Products.html#hybrid">Hybrid Inverter</a></li>
+					 </ul>
+				  </li>
+				  <li><a class="dropdown-item" href="Products.html#bos">BOS System &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="Products.html#ajb">AJB, ACDB & DCDB</a></li>
+						<li><a class="dropdown-item" href="Products.html#cable">Solar Cable</a></li>
+						<li><a class="dropdown-item" href="Products.html#earth">Earthing</a></li>
+						<li><a class="dropdown-item" href="Products.html#light">Lightning Arrestor</a></li>
+						<li><a class="dropdown-item" href="Products.html#str">Solar Structure</a></li>
+					</ul>
+				  </li>
+				  <li><a class="dropdown-item" href="Products.html#pump">Solar Pumps &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="Products.html#agri">Agricultural Water Pump</a></li>
+						<li><a class="dropdown-item" href="Products.html#resi">Residential Water Pump</a></li>
+					</ul>
+				  </li>
+				  <li><a class="dropdown-item" href="Products.html#street">Solar Street Light &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="Products.html#semi">Semi Integrated Light</a></li>
+						<li><a class="dropdown-item" href="Products.html#all">All in One Street Light</a></li>
+						<li><a class="dropdown-item" href="Products.html#stand">Stand Alone Light</a></li>
+					</ul>
+				  </li>
+		        </ul>
 			</li>
-			<li><a href="projects.html">Projects</a></li>
-		  </ul>
-		</li>
-		 <li>
-			 <a href="Products.html"style="font-weight: 600;margin-left:-15px;">Solar Products</a>
-			<ul>
-				<li><a href="Products.html#modules">Solar Modules</a>
-					<ul >
-						<li><a href="Products.html#mono">Monocrystalline</a></li>
-						<li><a href="Products.html#poly">Polycrystalline</a></li>
-						<li><a href="Products.html#bifacial">Bifacial</a></li>
-					</ul>
-				</li>
-				<li><a href="Products.html#inverter">Solar Inverter</a>
-					<ul class="dropdown2">
-						<li><a href="Products.html#ongrid">On Grid Inverter</a></li>
-						<li><a href="Products.html#offgrid">Off Grid Inverter</a></li>
-						<li><a href="Products.html#hybrid">Hybrid Inverter</a></li>
-					</ul>
-				</li>
-				<li><a href="Products.html#bos">BOS System</a>
-					<ul class="dropdown2">
-					<li><a href="Products.html#ajb">AJB, ACDB & DCDB</a></li>
-					<li><a href="Products.html#cable">Solar Cable</a></li>
-					<li><a href="Products.html#earth">Earthing</a></li>
-					<li><a href="Products.html#light">Lightning Arrestor</a></li>
-					<!-- <li><a href="Products.html#bos">E-Structure</a></li> -->
-					</ul>
-				</li>
-				<li><a href="Products.html#pump">Solar Pump</a>
-					<ul class="dropdown2">
-					<li><a href="Products.html#agri">Agricultural Pump</a></li>
-					<li><a href="Products.html#resi">Residential Water Pump</a></li>
-					</ul>
-				</li>
-				<li><a href="Products.html#street">Solar Street Light</a>
-					<ul class="dropdown2">
-					<li><a href="Products.html#semi">Semi Integrated Light</a></li>
-					<li><a href="Products.html#all">All in One Street Light</a></li>
-					<li><a href="Products.html#stand">Stand Alone Light</a></li>
-					</ul>
-				</li>
-			</ul>
-		 </li>
-	   <li>
-		 <a href="Evehic.html" style="font-weight: 600;margin-left:-15px;" >Electric Vehicles</a>
-		 <ul>
-			<li><a href="Evehic.html#E-vehic">Electric Vehicles</a>
-				<ul class="dropdown2">
-					<li><a href="Evehic.html#E-vehic">Electric Cycles</a></li>
-					<li><a href="Evehic.html#E-vehic">Electric Car</a></li>
-					<li><a href="Evehic.html#E-vehic">Electric Bike</a></li>
-				</ul>	
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="Evehic.html" data-toggle="dropdown">Electric Vehicle</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="Evehic.html#E-vehic">Electric Vehicles &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="Evehic.html#E-vehic">Electric Car</a></li>
+						<li><a class="dropdown-item" href="Evehic.html#E-vehic">Electric Bike</a></li>
+						<li><a class="dropdown-item" href="Evehic.html#E-vehic">Electric Cycles</a></li>
+					 </ul>
+				 </li>
+				 <li><a class="dropdown-item" href="Evehic.html#battery">Electric Vehicle Batteries &raquo</a>
+					<ul class="submenu dropdown-menu">
+						<li><a class="dropdown-item" href="Evehic.html#battery">E-Car Battery</a></li>
+						<li><a class="dropdown-item" href="Evehic.html#battery">E-Bike Battery</a></li>
+						<li><a class="dropdown-item" href="Evehic.html#battery">E-Cycles Battery</a></li>
+						<li><a class="dropdown-item" href="Evehic.html#battery">E-Rikshaw Battery</a></li>
+					 </ul>
+				  </li>
+		        </ul>
 			</li>
-			<li><a href="Evehic.html#battery">Electric Vehicles Batteries</a>
-				<ul class="dropdown2">
-					<li><a href="Evehic.html#E-cycle">E-Cycle Battery</a></li>
-					<li><a href="Evehic.html#E-bike">E-Bike Battery</a></li>
-					<li><a href="Evehic.html#E-car">E-Car Battery</a></li>
-					<li><a href="Evehic.html#E-Rikshaw">E-Rikshaw Battery</a></li>
-				</ul>
+			<li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+			<li class="solar_mdl_btn"> 
+				<a href="#exampleModal" class="solar_btn" id="get" data-toggle="modal">Get A Quote</a>
 			</li>
 		</ul>
-	   </li>
-			<li><a href="contact.html"style="font-weight: 600;margin-left:-15px;">Contact Us</a></li>
-			<li class="solar_mdl_btn"> 
-			<a href="#exampleModal" class="solar_btn" id="get" data-toggle="modal">Get A Quote</a>
-			</li>
-			
-		   </ul>
-		 </nav>
 		  </div>
-		</div>
-	  </header>
+		
+		</nav>
+</header>
 
 	  
 	  <section class="intro-page" style="height: 500px;margin-bottom: 30px;">
