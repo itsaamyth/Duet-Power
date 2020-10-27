@@ -24,3 +24,87 @@
 		}
 		
 	}); // jquery end
+window.onload = function(){
+document.getElementById("res1").onclick=function(){
+	location.href=('residential.html#ongrid')
+}
+document.getElementById("res2").onclick=function(){
+	location.href=('residential.html#offgrid')
+}
+document.getElementById("com1").onclick=function(){
+	location.href=('commercial.html#gridtied')
+}
+document.getElementById("com2").onclick=function(){
+	location.href=('commercial.html#hybrid')
+}
+document.getElementById("mod1").onclick=function(){
+	location.href=('products.html#modules')
+}
+document.getElementById("mod2").onclick=function(){
+	location.href=('products.html#modules')
+}
+document.getElementById("mod3").onclick=function(){
+	location.href=('products.html#modules')
+}
+document.getElementById("inv1").onclick=function(){
+	location.href=('products.html#inverter')
+}
+document.getElementById("inv2").onclick=function(){
+	location.href=('products.html#inverter')
+}
+document.getElementById("inv3").onclick=function(){
+	location.href=('products.html#inverter')
+}
+document.getElementById("bos1").onclick=function(){
+	location.href=('products.html#bos')
+}
+document.getElementById("bos2").onclick=function(){
+	location.href=('products.html#bos')
+}
+document.getElementById("bos3").onclick=function(){
+	location.href=('products.html#bos')
+}
+document.getElementById("bos4").onclick=function(){
+	location.href=('products.html#bos')
+}
+document.getElementById("bos5").onclick=function(){
+	location.href=('products.html#bos')
+}
+document.getElementById("pump1").onclick=function(){
+	location.href=('products.html#pump')
+}
+document.getElementById("pump2").onclick=function(){
+	location.href=('products.html#pump')
+}
+document.getElementById("street1").onclick=function(){
+	location.href=('products.html#street')
+}
+document.getElementById("street2").onclick=function(){
+	location.href=('products.html#street')
+}
+document.getElementById("street3").onclick=function(){
+	location.href=('products.html#street')
+}
+document.getElementById("E1").onclick=function(){
+	location.href=('Evehic.html#E-vehic')
+}
+document.getElementById("E2").onclick=function(){
+	location.href=('Evehic.html#E-vehic')
+}
+document.getElementById("E3").onclick=function(){
+	location.href=('Evehic.html#E-vehic')
+}
+document.getElementById("B1").onclick=function(){
+	location.href=('Evehic.html#battery')
+}
+document.getElementById("B2").onclick=function(){
+	location.href=('Evehic.html#battery')
+}
+document.getElementById("B3").onclick=function(){
+	location.href=('Evehic.html#battery')
+}
+document.getElementById("B4").onclick=function(){
+	location.href=('Evehic.html#battery')
+}
+
+}
