@@ -37,53 +37,56 @@ document.getElementById("com1").onclick=function(){
 document.getElementById("com2").onclick=function(){
 	location.href=('commercial.html#hybrid')
 }
+document.getElementById("pro").onclick=function(){
+	location.href=('projects.html')
+}
 document.getElementById("mod1").onclick=function(){
-	location.href=('products.html#modules')
+	location.href=('Products.html#modules')
 }
 document.getElementById("mod2").onclick=function(){
-	location.href=('products.html#modules')
+	location.href=('Products.html#modules')
 }
 document.getElementById("mod3").onclick=function(){
-	location.href=('products.html#modules')
+	location.href=('Products.html#modules')
 }
 document.getElementById("inv1").onclick=function(){
-	location.href=('products.html#inverter')
+	location.href=('Products.html#inverter')
 }
 document.getElementById("inv2").onclick=function(){
-	location.href=('products.html#inverter')
+	location.href=('Products.html#inverter')
 }
 document.getElementById("inv3").onclick=function(){
-	location.href=('products.html#inverter')
+	location.href=('Products.html#inverter')
 }
 document.getElementById("bos1").onclick=function(){
-	location.href=('products.html#bos')
+	location.href=('Products.html#bos')
 }
 document.getElementById("bos2").onclick=function(){
-	location.href=('products.html#bos')
+	location.href=('Products.html#bos')
 }
 document.getElementById("bos3").onclick=function(){
-	location.href=('products.html#bos')
+	location.href=('Products.html#bos')
 }
 document.getElementById("bos4").onclick=function(){
-	location.href=('products.html#bos')
+	location.href=('Products.html#bos')
 }
 document.getElementById("bos5").onclick=function(){
-	location.href=('products.html#bos')
+	location.href=('Products.html#bos')
 }
 document.getElementById("pump1").onclick=function(){
-	location.href=('products.html#pump')
+	location.href=('Products.html#pump')
 }
 document.getElementById("pump2").onclick=function(){
-	location.href=('products.html#pump')
+	location.href=('Products.html#pump')
 }
 document.getElementById("street1").onclick=function(){
-	location.href=('products.html#street')
+	location.href=('Products.html#street')
 }
 document.getElementById("street2").onclick=function(){
-	location.href=('products.html#street')
+	location.href=('Products.html#street')
 }
 document.getElementById("street3").onclick=function(){
-	location.href=('products.html#street')
+	location.href=('Products.html#street')
 }
 document.getElementById("E1").onclick=function(){
 	location.href=('Evehic.html#E-vehic')
