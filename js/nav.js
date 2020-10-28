@@ -88,6 +88,9 @@ document.getElementById("street2").onclick=function(){
 document.getElementById("street3").onclick=function(){
 	location.href=('Products.html#street')
 }
+document.getElementById("pdt1").onclick=function(){
+	location.href=('Products.html#water')
+}
 document.getElementById("E1").onclick=function(){
 	location.href=('Evehic.html#E-vehic')
 }
