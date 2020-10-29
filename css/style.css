@@ -424,7 +424,6 @@ nav > ul > li > a:hover:after {
     padding: 30px 20px;
     border-radius: 10px;
     z-index: 5;
-    background-image: url(../images/sr-back.jpeg);
     background-size: cover;
 	border-bottom: solid 3px #4e54c8;
     transition:  all 0.3s ease-in-out;
@@ -434,6 +433,27 @@ nav > ul > li > a:hover:after {
     margin: 40px 0 20px;
     font-size: 20px;
 }
+
+@media(max-width: 765px){
+.our_brands{
+    margin: auto;
+    width: 50%;
+    height:200px;
+    margin-top:10px;
+}
+.solar_Serivces_in{
+    margin-top: 10px;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+    .our_brands{
+   width: 100px;
+   height: 100px;
+    }
+    .solar_Serivces_in{
+        margin-top: 10px;
+    }
+    }
 /********************************************************
 3. service end
 ********************************************************/
@@ -1803,7 +1823,7 @@ nav > ul > li > a:hover:after {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  transition: background-color .3s, 
+  transition: background-color .3s, ;
     opacity: .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
@@ -2254,7 +2274,7 @@ body {
     padding: 56px 0 150px;
 }
 .solar_Serivces_in {
-    padding: 60px 0 12px;
+    padding: 0 0 12px;
 }
 .solar_pricing {
     padding: 56px 0 130px;
