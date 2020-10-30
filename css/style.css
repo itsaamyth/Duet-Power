@@ -399,7 +399,6 @@ nav > ul > li > a:hover:after {
     padding: 30px 20px;
     border-radius: 10px;
     z-index: 5;
-    background-image: url(../images/sr-back.jpeg);
     background-size: cover;
 	border-bottom: solid 3px #4e54c8;
     transition:  all 0.3s ease-in-out;
@@ -433,6 +432,71 @@ nav > ul > li > a:hover:after {
     margin: 40px 0 20px;
     font-size: 20px;
 }
+.carousel-wrap {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+  }
+  .owl-carousel .owl-nav{
+    overflow: hidden;
+    height: 0px;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+      background: #2caae1;
+  }
+
+
+  .owl-carousel .item {
+      text-align: center;
+  }
+  .owl-carousel .nav-btn{
+      height: 50px;
+      position: absolute;
+      width: 50px;
+      cursor: pointer;
+      top: 100px !important;
+  }
+
+  .owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    pointer-events: none;
+    opacity: 0.2;
+  }
+
+  .owl-carousel .prev-slide{
+      background: url(../images/backward.png) no-repeat scroll 0 0;
+      left: -35px;
+  }
+  .owl-carousel .next-slide{
+      background: url(../images/forward.png) no-repeat scroll 0px 0px;
+      right: -35px;
+   
+  }
+  /* .owl-carousel .prev-slide:hover{
+     background-position: 0px -53px;
+  } */
+  /* .owl-carousel .next-slide:hover{
+    background-position: -24px -53px;
+  } */
+
+  span.img-text {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    display: block;
+    text-transform: capitalize;
+  }
+  span.img-text:hover {
+    color: #2caae1;
+  }
 
 @media(max-width: 765px){
 .our_brands{
@@ -443,6 +507,13 @@ nav > ul > li > a:hover:after {
 }
 .solar_Serivces_in{
     margin-top: 10px;
+}
+.owl-carousel .prev-slide{
+    left: -20px;
+}
+.owl-carousel .next-slide{
+    right: -15px;
+ 
 }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){

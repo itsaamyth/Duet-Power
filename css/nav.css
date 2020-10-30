@@ -19,7 +19,7 @@ margin-top: -8px;
 	height: 40px;
   }
   #blinker{
-	animation: blinker 3s linear infinite;
+	animation: blinker 8s linear infinite;
 	margin-top: 5px;
 	text-transform: none;
   }

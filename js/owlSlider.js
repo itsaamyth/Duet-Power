@@ -13,7 +13,8 @@ jQuery("#carousel").owlCarousel({
     autoplayTimeout: 7000,
     smartSpeed: 800,
     center:true,
-    nav: false,
+    nav: true,
+    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
     responsive:{
         0:{
             items:1
