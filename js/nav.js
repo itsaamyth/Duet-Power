@@ -101,16 +101,19 @@ document.getElementById("E3").onclick=function(){
 	location.href=('Evehic.html#E-vehic')
 }
 document.getElementById("B1").onclick=function(){
-	location.href=('Evehic.html#battery')
+	location.href=('Li-Battery.html')
 }
 document.getElementById("B2").onclick=function(){
-	location.href=('Evehic.html#battery')
+	location.href=('Li-Bike.html')
 }
 document.getElementById("B3").onclick=function(){
-	location.href=('Evehic.html#battery')
+	location.href=('Li-Cycle.html')
 }
 document.getElementById("B4").onclick=function(){
-	location.href=('Evehic.html#battery')
+	location.href=('Li-Rickshaw.html')
+}
+document.getElementById("B4").onclick=function(){
+	location.href=('Li-Car.html')
 }
 
 }
