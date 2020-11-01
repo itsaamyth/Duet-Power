@@ -41,55 +41,58 @@ document.getElementById("pro").onclick=function(){
 	location.href=('projects.html')
 }
 document.getElementById("mod1").onclick=function(){
-	location.href=('Products.html#modules')
+	location.href=('monoPERC.html')
 }
 document.getElementById("mod2").onclick=function(){
-	location.href=('Products.html#modules')
+	location.href=('poly.html')
 }
 document.getElementById("mod3").onclick=function(){
-	location.href=('Products.html#modules')
+	location.href=('Bifacial.html')
 }
 document.getElementById("inv1").onclick=function(){
-	location.href=('Products.html#inverter')
+	location.href=('ongridInverter.html')
 }
 document.getElementById("inv2").onclick=function(){
-	location.href=('Products.html#inverter')
+	location.href=('offgridInverter.html')
 }
 document.getElementById("inv3").onclick=function(){
-	location.href=('Products.html#inverter')
+	location.href=('hybrid.html')
 }
 document.getElementById("bos1").onclick=function(){
-	location.href=('Products.html#bos')
+	location.href=('bos.html')
 }
 document.getElementById("bos2").onclick=function(){
-	location.href=('Products.html#bos')
+	location.href=('bos.html')
 }
 document.getElementById("bos3").onclick=function(){
-	location.href=('Products.html#bos')
+	location.href=('bos.html')
 }
 document.getElementById("bos4").onclick=function(){
-	location.href=('Products.html#bos')
+	location.href=('bos.html')
 }
 document.getElementById("bos5").onclick=function(){
-	location.href=('Products.html#bos')
+	location.href=('bos.html')
 }
 document.getElementById("pump1").onclick=function(){
-	location.href=('Products.html#pump')
+	location.href=('SolarPump.html')
 }
 document.getElementById("pump2").onclick=function(){
-	location.href=('Products.html#pump')
+	location.href=('SolarPump.html')
 }
 document.getElementById("street1").onclick=function(){
-	location.href=('Products.html#street')
+	location.href=('semi-Integrated-StreetLight.html')
 }
 document.getElementById("street2").onclick=function(){
-	location.href=('Products.html#street')
+	location.href=('allInOneStreet.html')
 }
 document.getElementById("street3").onclick=function(){
-	location.href=('Products.html#street')
+	location.href=('standAloneStreet.html')
 }
 document.getElementById("pdt1").onclick=function(){
-	location.href=('Products.html#water')
+	location.href=('solarWaterHeater.html')
+}
+document.getElementById("pdt2").onclick=function(){
+	location.href=('solarWaterHeater.html')
 }
 document.getElementById("E1").onclick=function(){
 	location.href=('Evehic.html#E-vehic')
@@ -112,7 +115,7 @@ document.getElementById("B3").onclick=function(){
 document.getElementById("B4").onclick=function(){
 	location.href=('Li-Rickshaw.html')
 }
-document.getElementById("B4").onclick=function(){
+document.getElementById("B5").onclick=function(){
 	location.href=('Li-Car.html')
 }
 
