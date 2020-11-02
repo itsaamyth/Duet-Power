@@ -219,6 +219,23 @@ h1.text_span {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+.know_btn{
+    color: #ffffff;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    height: 40px;
+    display: inline-block;
+    padding: 0 25px;
+    font-weight: 400;
+    margin-top:20px;
+    line-height: 40px;
+    border-radius: 100px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
 .solar_btn:hover {
     color: #ffffff;
     background: linear-gradient(to right, #8f94fb, #4e54c8);
@@ -425,6 +442,11 @@ nav > ul > li > a:hover:after {
     background-size: cover;
     transition:  all 0.3s ease-in-out;
     box-shadow: 0 0 10px 5px #ececec;
+}
+@media(max-width: 800px){
+    .Li_Services{
+        width: 100%;
+    }
 }
 .solar_values1 {
     margin: 0 0 48px;
