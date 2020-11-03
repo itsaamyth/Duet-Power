@@ -480,7 +480,9 @@ nav > ul > li > a:hover:after {
   /* .owl-carousel .next-slide:hover{
     background-position: -24px -53px;
   } */
-
+#myvideo{
+    object-fit: cover;
+}
   span.img-text {
     text-decoration: none;
     outline: none;
